@@ -1,0 +1,56 @@
+#db sql
+db.sqlite3
+
+# Python
+*.py[cod]
+*.$py.class
+
+# VS Code
+*.vscode
+**/.vscode/
+
+# virtual environment
+.env/
+env/
+/.env
+
+# Django
+*.log
+*.pot
+*.pyc
+*__pycache__
+# *media
+*.DS_Store
+
+# Backup Files
+*.bak
+
+#static files
+React-Django/staticfiles
+./staticfiles
+
+# react frontend
+
+# dependencies
+project1/frontend/node_modules
+project1/frontend/.pnp
+project1/frontend/.pnp.js
+project1/frontend/.pnp.js
+
+# testing
+project1/frontend/coverage
+
+# production
+project1/frontend/build
+
+# misc
+project1/frontend/.DS_Store
+project1/frontend/.env.local
+project1/frontend/.env.development.local
+project1/frontend/.env.test.local
+project1/frontend/.env.production.local
+
+project1/frontend/npm-debug.log*
+project1/frontend/yarn-debug.log*
+project1/frontend/yarn-error.log*
+
