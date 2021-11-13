@@ -48,7 +48,7 @@ function Note() {
         setFormNote(({
           title: "",
           content: ""}))
-
+        setExpanded(false)
         event.preventDefault()
     }
 
@@ -71,7 +71,7 @@ function Note() {
     function NoteShow(){
         setExpanded(true)
         setRows(3)
-       }
+      }
 
   return (
 
