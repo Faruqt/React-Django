@@ -26,7 +26,7 @@ Backend: Django, Django REST Framework
 ```shell
        python3 manage.py migrate
  ```
- - Naviagte to the front end folder 
+ - Navigate to the front end folder 
 ```shell
        cd frontend
  ```
