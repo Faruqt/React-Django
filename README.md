@@ -15,7 +15,7 @@ Backend: Django, Django REST Framework
  ```shell
        source env/bin/activate
  ```
-  - Navigate to the project1 base folder that contains manage.py and readme files.
+  - Navigate to the project1 base folder that contains the requirements.txt file.
 ```shell
        cd project1
  ```
