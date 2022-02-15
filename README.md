@@ -27,6 +27,11 @@ Backend: Django, Django REST Framework
 ```shell
        python3 manage.py makemigrations
  ```
+ You might get the warning below because the build folder has not been created yet. Ignore it and proceed to the next step.
+``` WARNINGS:
+?: (staticfiles.W004) The directory '/Users/faruq/Desktop/test/React-Django/project1/frontend/build/static' in the STATICFILES_DIRS setting does not exist.
+```
+
  - Migrate changes
 ```shell
        python3 manage.py migrate
